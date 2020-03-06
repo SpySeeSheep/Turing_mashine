@@ -1,22 +1,39 @@
 body {
-    display: flex;
-    display: grid;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;   
 }
-input#in_count{
+.wrapper {
+    margin: 0 auto;
+}
+.wrapper > .task_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-style: italic;
+    font-size: 14px;
+}
+.wrapper > .in_value {
+    display: flex;
     justify-items: center;
+}
+.in_value > #in_count {
+    font-size: larger;
+    font-style: italic;
 
 }
-h1,h2,h3 {
+.in_value > #click {
+    display: block;
+    padding: 15px 25px;
+    font-size: larger;
+    font-style: italic;
+}
+h1, h2, h3 {
     justify-items: center;
-    font-family:  Helvetica, sans-serif, Arial;
+    font-family: Helvetica, sans-serif, Arial;
     font-size: 16px;
 }
-h4,h5,h6 {
-    font-family:  sans-serif, Arial, Helvetica;
-    font-size: 16px;
+.table_good {
+    font-size: x-large;
 }
-p{
-    flex-wrap: wrap;
-    justify-content: flex-start;
+button{
+
 }
