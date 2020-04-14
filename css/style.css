@@ -31,9 +31,14 @@ h1, h2, h3 {
     font-family: Helvetica, sans-serif, Arial;
     font-size: 16px;
 }
+.settings{
+    visibility: hidden;
+}
 .table_good {
     font-size: x-large;
 }
-button{
 
+.cells{
+    width: 20px;
+    
 }
